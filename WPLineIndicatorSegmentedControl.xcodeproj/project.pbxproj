@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CDA60E1BC8EBBC00E44504 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA60D1BC8EBBC00E44504 /* main.m */; };
+		F5CDA6111BC8EBBC00E44504 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6101BC8EBBC00E44504 /* AppDelegate.m */; };
+		F5CDA6141BC8EBBC00E44504 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6131BC8EBBC00E44504 /* ViewController.m */; };
+		F5CDA6171BC8EBBC00E44504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6151BC8EBBC00E44504 /* Main.storyboard */; };
+		F5CDA6191BC8EBBC00E44504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA6181BC8EBBC00E44504 /* Assets.xcassets */; };
+		F5CDA61C1BC8EBBC00E44504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA61A1BC8EBBC00E44504 /* LaunchScreen.storyboard */; };
+		F5CDA6271BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6261BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m */; };
+		F5CDA6321BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6311BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CDA6231BC8EBBC00E44504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDA6011BC8EBBC00E44504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDA6081BC8EBBC00E44504;
+			remoteInfo = WPLineIndicatorSegmentedControl;
+		};
+		F5CDA62E1BC8EBBC00E44504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CDA6011BC8EBBC00E44504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CDA6081BC8EBBC00E44504;
+			remoteInfo = WPLineIndicatorSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5CDA6091BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPLineIndicatorSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDA60D1BC8EBBC00E44504 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CDA60F1BC8EBBC00E44504 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5CDA6101BC8EBBC00E44504 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5CDA6121BC8EBBC00E44504 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5CDA6131BC8EBBC00E44504 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5CDA6161BC8EBBC00E44504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CDA6181BC8EBBC00E44504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CDA61B1BC8EBBC00E44504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CDA61D1BC8EBBC00E44504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDA6221BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPLineIndicatorSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDA6261BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPLineIndicatorSegmentedControlTests.m; sourceTree = "<group>"; };
+		F5CDA6281BC8EBBC00E44504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDA62D1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPLineIndicatorSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CDA6311BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPLineIndicatorSegmentedControlUITests.m; sourceTree = "<group>"; };
+		F5CDA6331BC8EBBC00E44504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CDA6061BC8EBBC00E44504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA61F1BC8EBBC00E44504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA62A1BC8EBBC00E44504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CDA6001BC8EBBC00E44504 = {
+			isa = PBXGroup;
+			children = (
+				F5CDA60B1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */,
+				F5CDA6251BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests */,
+				F5CDA6301BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests */,
+				F5CDA60A1BC8EBBC00E44504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CDA60A1BC8EBBC00E44504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA6091BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl.app */,
+				F5CDA6221BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.xctest */,
+				F5CDA62D1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CDA60B1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA60F1BC8EBBC00E44504 /* AppDelegate.h */,
+				F5CDA6101BC8EBBC00E44504 /* AppDelegate.m */,
+				F5CDA6121BC8EBBC00E44504 /* ViewController.h */,
+				F5CDA6131BC8EBBC00E44504 /* ViewController.m */,
+				F5CDA6151BC8EBBC00E44504 /* Main.storyboard */,
+				F5CDA6181BC8EBBC00E44504 /* Assets.xcassets */,
+				F5CDA61A1BC8EBBC00E44504 /* LaunchScreen.storyboard */,
+				F5CDA61D1BC8EBBC00E44504 /* Info.plist */,
+				F5CDA60C1BC8EBBC00E44504 /* Supporting Files */,
+			);
+			path = WPLineIndicatorSegmentedControl;
+			sourceTree = "<group>";
+		};
+		F5CDA60C1BC8EBBC00E44504 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA60D1BC8EBBC00E44504 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CDA6251BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA6261BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m */,
+				F5CDA6281BC8EBBC00E44504 /* Info.plist */,
+			);
+			path = WPLineIndicatorSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		F5CDA6301BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA6311BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m */,
+				F5CDA6331BC8EBBC00E44504 /* Info.plist */,
+			);
+			path = WPLineIndicatorSegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CDA6081BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDA6361BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControl" */;
+			buildPhases = (
+				F5CDA6051BC8EBBC00E44504 /* Sources */,
+				F5CDA6061BC8EBBC00E44504 /* Frameworks */,
+				F5CDA6071BC8EBBC00E44504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPLineIndicatorSegmentedControl;
+			productName = WPLineIndicatorSegmentedControl;
+			productReference = F5CDA6091BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CDA6211BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDA6391BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControlTests" */;
+			buildPhases = (
+				F5CDA61E1BC8EBBC00E44504 /* Sources */,
+				F5CDA61F1BC8EBBC00E44504 /* Frameworks */,
+				F5CDA6201BC8EBBC00E44504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDA6241BC8EBBC00E44504 /* PBXTargetDependency */,
+			);
+			name = WPLineIndicatorSegmentedControlTests;
+			productName = WPLineIndicatorSegmentedControlTests;
+			productReference = F5CDA6221BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5CDA62C1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CDA63C1BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControlUITests" */;
+			buildPhases = (
+				F5CDA6291BC8EBBC00E44504 /* Sources */,
+				F5CDA62A1BC8EBBC00E44504 /* Frameworks */,
+				F5CDA62B1BC8EBBC00E44504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CDA62F1BC8EBBC00E44504 /* PBXTargetDependency */,
+			);
+			name = WPLineIndicatorSegmentedControlUITests;
+			productName = WPLineIndicatorSegmentedControlUITests;
+			productReference = F5CDA62D1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CDA6011BC8EBBC00E44504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "王鹏";
+				TargetAttributes = {
+					F5CDA6081BC8EBBC00E44504 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F5CDA6211BC8EBBC00E44504 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F5CDA6081BC8EBBC00E44504;
+					};
+					F5CDA62C1BC8EBBC00E44504 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F5CDA6081BC8EBBC00E44504;
+					};
+				};
+			};
+			buildConfigurationList = F5CDA6041BC8EBBC00E44504 /* Build configuration list for PBXProject "WPLineIndicatorSegmentedControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CDA6001BC8EBBC00E44504;
+			productRefGroup = F5CDA60A1BC8EBBC00E44504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CDA6081BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */,
+				F5CDA6211BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests */,
+				F5CDA62C1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CDA6071BC8EBBC00E44504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDA61C1BC8EBBC00E44504 /* LaunchScreen.storyboard in Resources */,
+				F5CDA6191BC8EBBC00E44504 /* Assets.xcassets in Resources */,
+				F5CDA6171BC8EBBC00E44504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA6201BC8EBBC00E44504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA62B1BC8EBBC00E44504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CDA6051BC8EBBC00E44504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDA6141BC8EBBC00E44504 /* ViewController.m in Sources */,
+				F5CDA6111BC8EBBC00E44504 /* AppDelegate.m in Sources */,
+				F5CDA60E1BC8EBBC00E44504 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA61E1BC8EBBC00E44504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDA6271BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CDA6291BC8EBBC00E44504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CDA6321BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CDA6241BC8EBBC00E44504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDA6081BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */;
+			targetProxy = F5CDA6231BC8EBBC00E44504 /* PBXContainerItemProxy */;
+		};
+		F5CDA62F1BC8EBBC00E44504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CDA6081BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */;
+			targetProxy = F5CDA62E1BC8EBBC00E44504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CDA6151BC8EBBC00E44504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDA6161BC8EBBC00E44504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CDA61A1BC8EBBC00E44504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CDA61B1BC8EBBC00E44504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CDA6341BC8EBBC00E44504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5CDA6351BC8EBBC00E44504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CDA6371BC8EBBC00E44504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CDA6381BC8EBBC00E44504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5CDA63A1BC8EBBC00E44504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPLineIndicatorSegmentedControl.app/WPLineIndicatorSegmentedControl";
+			};
+			name = Debug;
+		};
+		F5CDA63B1BC8EBBC00E44504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPLineIndicatorSegmentedControl.app/WPLineIndicatorSegmentedControl";
+			};
+			name = Release;
+		};
+		F5CDA63D1BC8EBBC00E44504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPLineIndicatorSegmentedControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5CDA63E1BC8EBBC00E44504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPLineIndicatorSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WP.WPLineIndicatorSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPLineIndicatorSegmentedControl;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CDA6041BC8EBBC00E44504 /* Build configuration list for PBXProject "WPLineIndicatorSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDA6341BC8EBBC00E44504 /* Debug */,
+				F5CDA6351BC8EBBC00E44504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CDA6361BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDA6371BC8EBBC00E44504 /* Debug */,
+				F5CDA6381BC8EBBC00E44504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CDA6391BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDA63A1BC8EBBC00E44504 /* Debug */,
+				F5CDA63B1BC8EBBC00E44504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CDA63C1BC8EBBC00E44504 /* Build configuration list for PBXNativeTarget "WPLineIndicatorSegmentedControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CDA63D1BC8EBBC00E44504 /* Debug */,
+				F5CDA63E1BC8EBBC00E44504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CDA6011BC8EBBC00E44504 /* Project object */;
+}

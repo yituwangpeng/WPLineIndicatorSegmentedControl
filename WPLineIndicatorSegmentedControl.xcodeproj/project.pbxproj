@@ -15,6 +15,7 @@
 		F5CDA61C1BC8EBBC00E44504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CDA61A1BC8EBBC00E44504 /* LaunchScreen.storyboard */; };
 		F5CDA6271BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6261BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlTests.m */; };
 		F5CDA6321BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6311BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m */; };
+		F5CDA6421BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CDA6411BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F5CDA62D1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPLineIndicatorSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CDA6311BC8EBBC00E44504 /* WPLineIndicatorSegmentedControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPLineIndicatorSegmentedControlUITests.m; sourceTree = "<group>"; };
 		F5CDA6331BC8EBBC00E44504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDA6401BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPLineIndicatorSegmentedControl.h; sourceTree = "<group>"; };
+		F5CDA6411BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPLineIndicatorSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F5CDA60B1BC8EBBC00E44504 /* WPLineIndicatorSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
+				F5CDA63F1BC8EC0800E44504 /* WPSegmentedControl */,
 				F5CDA60F1BC8EBBC00E44504 /* AppDelegate.h */,
 				F5CDA6101BC8EBBC00E44504 /* AppDelegate.m */,
 				F5CDA6121BC8EBBC00E44504 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F5CDA6331BC8EBBC00E44504 /* Info.plist */,
 			);
 			path = WPLineIndicatorSegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+		F5CDA63F1BC8EC0800E44504 /* WPSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				F5CDA6401BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.h */,
+				F5CDA6411BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.m */,
+			);
+			path = WPSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5CDA6141BC8EBBC00E44504 /* ViewController.m in Sources */,
+				F5CDA6421BC8EC0800E44504 /* WPLineIndicatorSegmentedControl.m in Sources */,
 				F5CDA6111BC8EBBC00E44504 /* AppDelegate.m in Sources */,
 				F5CDA60E1BC8EBBC00E44504 /* main.m in Sources */,
 			);
